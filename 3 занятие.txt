@@ -1,0 +1,26 @@
+3 занятие
+Tables
+<table></table> - тег таблицы
+<tr></tr> - тег строки
+<td></td> - тег столбца
+border: line-widht(px) Type-of line color; - рамки
+background-color: red; - цвет фона элемента
+text-align: center; - прилегание текста к центру
+Margin - расстояние между двумя элементами
+Padding - расстояние между контентом и бордером
+направления
+top - вверх
+bottom - низ
+left - право
+right - право
+border-radius - скругление
+background-image: url("") - вставить изображение в элемент (таблица)
+Анимация в СSS
+td:hover{
+	transform: rotate(90deg);
+	transition: 1s;
+}
+@keyframes название_Анимации{
+
+	Действия каждый кадр
+}

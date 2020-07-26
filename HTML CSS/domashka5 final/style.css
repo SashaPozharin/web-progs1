@@ -1,0 +1,16 @@
+.a{
+	border: 3px solid black;
+	width: 90px;
+	height: 88px;
+	text-align: center;
+}
+.a:hover{
+	background-color: red;
+	transition: 1.5s
+}
+body{
+	background-color: lightblue;
+}
+#ggg{
+	text-align: center;
+}

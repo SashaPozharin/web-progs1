@@ -1,0 +1,32 @@
+table{
+	width: 600px;
+	height: 600px;
+	text-align: center;
+	margin-left: 37%;
+}
+h1{
+	margin-left: 42%;
+}
+td{
+	width: 200px;
+	height: 200px;
+	background-image: url("http://electrostal.elmall50.ru/pics/pics24/59039_0.jpg");
+	background-size: 200px;
+}
+
+td{
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-name: rotation;
+}
+@keyframes rotation{
+	from{
+		background-size: 200px;
+	}
+	50%{
+		background-size: 100px;
+	}
+	to{
+	background-size: 200px;
+	}
+}

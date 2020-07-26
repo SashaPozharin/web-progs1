@@ -1,0 +1,19 @@
+h1{
+	color: rgb(0,255,255);
+	font-family: sans-serif;
+}
+del{
+	color: rgb(212,208,205);
+}
+b{
+	color: rgb(255,0,0);
+}
+ins{
+	color: rgb(0,255,0);
+}
+span{
+	color: rgb(255,0,255);
+}
+body{
+	font-size: 14pt;
+}

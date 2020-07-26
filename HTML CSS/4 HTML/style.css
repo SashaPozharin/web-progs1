@@ -1,0 +1,32 @@
+table{
+	margin-left: 34%;
+	margin-top: 5%
+}
+
+td{
+	width: 100px;
+	height: 50px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+a:link{
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+a:visited{
+	color: white;
+}
+.kostyl{
+	width: 80px;
+	height: 80px;
+	border: 0px solid white;
+	background-color: white;
+	text-align: center;
+}
+
+iframe{
+	border: 2px solid black;
+	margin-left: 30%;
+}

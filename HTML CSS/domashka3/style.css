@@ -1,0 +1,107 @@
+table{
+    width: 120px;
+    height: 120px;
+    border-spacing: 0px;
+    border: 2px solid black;
+    background-color: grey;
+    margin-left: 45%
+}
+td{
+    width: 120px;
+    height: 120px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-radius: 100%;
+    background-color: white;
+}
+#red{
+    border-top: 2px solid grey;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-name: colorone;
+}
+@keyframes colorone{
+    from{
+        background-color: white;
+    }
+    20%{
+        background-color: white;
+    }
+    21%{
+        background-color: red;
+    }
+    50%{
+        background-color: red;
+    }
+    80%{
+        background-color: rgb(255,230,230);
+    }
+    to{
+        background-color: rgb(255,230,230);
+    }
+}
+
+#yellow{
+    border-top: 2px solid grey;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-name: colortwo;
+}
+@keyframes colortwo{
+    from{
+        background-color: white;
+    }
+    
+    50%{
+        background-color: white;
+    }
+    51%{
+        background-color: yellow;
+    }
+    65%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: rgb(253,254,222);
+    }
+    to{
+        background-color: rgb(253,254,222);
+    }
+}
+#green{
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-name: colorthree;
+}
+@keyframes colorthree{
+    from{
+        background-color: white;
+    }
+    
+    50%{
+        background-color: white;
+    }
+    67%{
+        background-color: white;
+    }
+    68%{
+        background-color: green;
+    }
+    78%{
+        background-color: green;
+    }
+    82%{
+        background-color: rgb(221,255,230);
+    }
+    86%{
+        background-color: green;
+    }
+    90%{
+        background-color: white;
+    }
+    to{
+        background-color: white;
+    }
+}
