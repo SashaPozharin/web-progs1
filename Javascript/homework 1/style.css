@@ -1,0 +1,28 @@
+#divA{
+    width: 175px;
+    height: 75px;
+    border: 3px solid black;
+    margin-left: 45%;
+}
+#btnA{
+    margin-left: 45%;
+}
+
+#inTxtA{
+    margin-left: 45%;
+}
+
+#divB{
+    width: 175px;
+    height: 75px;
+    border: 3px solid black;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+#btnB{
+    margin-left: 45%;
+}
+
+#inTxtB{
+    margin-left: 45%;
+}
