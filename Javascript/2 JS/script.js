@@ -1,6 +1,7 @@
 function setResult(){
-    alert();
-    result.innerHTML ="Я научился понимать JS";
+    let txt = inTxt.value;
+    result.innerHTML = txt;
 }
 
-btn.addEnentListener( "click", setResult);
+
+btn.addEventListener("click", setResult);
