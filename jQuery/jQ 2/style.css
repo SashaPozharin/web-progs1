@@ -1,0 +1,26 @@
+#field {
+    margin-left: 10%;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 15%;
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+
+#head {
+    width: 75px;
+    height: 75px;
+    border-radius: 25%;
+}
+
+.clicked {
+    height: 50px;
+    width: 50px;
+    background-color: lime !important;
+    transition: 5s ease !important;
+    border-radius: 100% !important;
+    
+}
